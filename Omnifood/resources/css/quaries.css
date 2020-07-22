@@ -1,0 +1,174 @@
+
+
+/* Small phones, 0-480px*/
+@media only screen and (max-width: 480px) {
+  section{
+    padding: 25px 0;
+  }
+
+  .contact-form {
+    width:100%;
+  }
+}
+
+/*smaller than an i-pad*/
+@media only screen and (max-width: 767px) {
+
+  .main-nav{
+    margin-top: 15px;
+    float: left;
+  }
+
+  .main-nav li {
+      display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    font-size: 110%;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .stick .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+    color: #343434;
+  }
+  .sticky .main-nav li a:hover,
+  .sticky .main-nav li a:active {
+    border: 0;
+  }
+
+  .sticky .logo {
+    display: none;
+  }
+
+  .sticky .logo-black {
+    display : block;
+  }
+
+  .sticky .mobile-nav-icon .i {
+    color: #343434;
+  }
+
+  .col {
+    margin: 0% 0% 1% 0%;
+  }
+
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+
+  .app-screen {
+    display: none;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .contact-form {
+    width:100%;
+  }
+}
+
+/*i-pad in protrate mode*/
+@media only screen and (max-width: 1023px) {
+  body {
+     font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .long-copy {
+    width : 80%;
+    margin-left: 10%;
+  }
+
+  .main-nav{
+    display: block;
+  }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:last-of-type {
+    margin-top: 10px;
+  }
+
+  .works-steps {
+    margin-bottom: 40px;
+  }
+  .works-steps:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .icon-small {
+    width: 20px;
+  }
+
+  .city-feature {
+    font-size: 90%;
+  }
+
+  .plan-box{
+    width:100%;
+    margin-left: 0%;
+    font-size:100%;
+  }
+
+  .plan-price{
+    font-size: 250%;
+  }
+
+  contact-form{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .plan-box{
+    font-size:70%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
