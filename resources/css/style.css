@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0 ,0 , 0.7)), url('https://vignette.wikia.nocookie.net/fireemblem/images/8/85/Fodlan_continent.png/revision/latest?cb=20191112154712');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header-content {
+    color: #fff;    
+    padding-top: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img {
+    border-radius: 50%;;
+
+    display: block;
+    height: 250px;
+    width: auto;
+}
+
+.header-name {
+    margin-left: 100px;
+    font-size: 100px;
+    font-weight: 300;
+}
